@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  /* padding: 10px; */
+  height: 35rem;
+  text-align: center;
+}
+
+#toggle {
+  padding: opx;
+  margin-left: 5px;
+  width: 94%;
+}
+table {
+  /* padding: 20px; */
+  margin-left: 10%;
+  margin-top: 22%;
+}
+* {
+  box-sizing: border-box;
+}

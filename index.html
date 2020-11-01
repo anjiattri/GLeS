@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>GLES</title>
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="swiper.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="loginsignup.css" />
+    <link rel="stylesheet" href="count.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Sign In starts -->
+    <div>
+      <nav class="social-nav">
+        <div class="nav-toggler"><i class="fas fa-bars"></i></div>
+        <a href="signup.html" class="icon-link facebook"
+          ><i class="fas fa-sign-in-alt"></i>
+        </a>
+      </nav>
+    </div>
+    <!-- Sign in Ends -->
+
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="loader-inner"></div>
+      </div>
+    </div>
+    <header>
+      <div class="menu-toggler">
+        <!-- <div class="social-icon">
+          <i class="fas fa-sign-in-alt"></i >
+        </div> -->
+
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Games</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">Collaborations</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Gear Up</a>
+          </li>
+          <li>
+            <a href="#sponsors" class="nav-link">Sponsors</a>
+          </li>
+          <li>
+            <a href="#playcards" class="nav-link">Our Team</a>
+          </li>
+          
+        </ul>
+      </nav>
+      <div class="slides">
+        <div class="mySlides">
+          <img src="images/portitem1.jpg" alt="" />
+        </div>
+        <div class="mySlides">
+          <img src="images/portitem2.jpg" alt="" />
+        </div>
+        <div class="mySlides">
+          <img src="images/portitem3.jpg" alt="" />
+        </div>
+         <div class="mySlides">
+          <img src="images/dota 2.jpg" alt="" />
+        </div> 
+        
+        
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div
+          class="profile-img"
+          data-aos="zoom-out-up"
+          data-aos-duration="1500"
+        >
+          <img src="images/profile.jpg" alt="" />
+        </div>
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Us</h6>
+          </div>
+          <p></p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Services</h1>
+          <h6>What You Can Do</h6>
+        </div>
+        <div class="my-skills">
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h1>Stack Of Games</h1>
+            <p>Choose From A Plethora Of Games</p>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-code"></i>
+            </div>
+            <h1>Connectivity</h1>
+            <p>Chat With Your Friends Or Team Members</p>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h1>Maintain Your Stats</h1>
+            <p>Keep Track Of Your Gaming Progress</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Games</h1>
+          <h6>Come And Explore</h6>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <a href="https://www.johnnybet.com/fifa-20-online-tournament">
+              <img src="images/FIFA20.jpg" alt="" />
+            </a>
+          </div>
+          <div class="portfolio-description">
+            <h6>FIFA 20</h6>
+            <h1>NUMBER #1 FOOTBALL GAME</h1>
+            <p>Play as your favourite Player</p>
+            <a href="" class="cta">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description has-margin-right">
+            <h6>Mortal Kombat</h6>
+            <h1>FOR ALL THRILL SEEKERS</h1>
+            <p>Best One vs One experience</p>
+            <a href="" class="cta">View Details</a>
+          </div>
+          <div
+            class="portfolio-img"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <a href="https://www.mortalkombat.com/esports">
+              <img src="images/mortalkombat.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a href="https://www.toornament.com/en_US/games/cod_modern_warfare">
+              <img src="images/modernwarfare.jpg" alt="" />
+            </a>
+          </div>
+          <div class="portfolio-description">
+            <h6>COD: MODERN WARFARE</h6>
+            <h1>The Best FPP Experience</h1>
+            <p>Compelling And Thrilling</p>
+            <a href="" class="cta">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description has-margin-right">
+            <h6>TEKEEN</h6>
+            <h1>STEP IN IF YOU LUST FOR ACTION</h1>
+            <p>Best Arcade Like Experience</p>
+            <a href="" class="cta">View Details</a>
+          </div>
+          <div
+            class="portfolio-img"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <a href="https://www.salty-eu.com/en/games/tekken-7">
+              <img src="images/tekken.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Collaborations</h1>
+          <h6>Past and Current</h6>
+        </div>
+        <div class="timeline" data-aos="fade-up-right" data-aos-duration="1500">
+          <ul>
+            <li class="date" data-date="2018-2019">
+              <h1>Esports Gaming</h1>
+              <p>An assured gaming partner</p>
+            </li>
+            <li class="date" data-date="2019-2020">
+              <h1>GamesArena</h1>
+              <p>Conducted Various Tournaments in the past year</p>
+            </li>
+            <li class="date" data-date="2020-Present">
+              <h1>Players' Lounge</h1>
+              <p>The Best Gaming Platform</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="sponsors" id="sponsors">
+      <div class="section-heading">
+        <h1>SPONSORS</h1>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <div class="card1 middle">
+                <div class="front">
+                  <img src="images/EA.png" alt="" />
+                </div>
+
+                <div class="back">
+                  <div class="back-content middle">
+                    <h1>CHALLENGE IS EVERYTHING</h1>
+                    <span><h2>ASSURED SPONSOR</h2></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <div class="card1 middle">
+                <div class="front">
+                  <img src="images/PSP.png" />
+                </div>
+
+                <div class="back">
+                  <div class="back-content middle">
+                    <h1>DUDE GET YOUR OWN</h1>
+                    <span><h2>Happy to Collaborate</h2></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <div class="card1 middle">
+                <div class="front">
+                  <div class="xbox">
+                    <img src="images/xbox.png" />
+                  </div>
+                </div>
+
+                <div class="back">
+                  <div class="back-content middle">
+                    <h1>JUMP AHEAD</h1>
+                    <span><h2>Eminent Platform</h2></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <div class="card1 middle">
+                <div class="front">
+                  <div class="nintendo">
+                    <img src="images/nintendoonline.jpg" />
+                  </div>
+                </div>
+
+                <div class="back">
+                  <div class="back-content middle">
+                    <h1>NOW YOU'RE PLAYING WITH POWER</h1>
+                    <span><h2>Excels in Gaming Consoles</h2></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <div class="card1 middle">
+                <div class="front">
+                  <img src="images/steam.png" />
+                </div>
+
+                <div class="back">
+                  <div class="back-content middle">
+                    <h1>BY GENIUSES FOR GENIUSES</h1>
+                    <span><h2>Best Streaming partner</h2></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <div class="card1 middle">
+                <div class="front">
+                  <img src="images/twitch.png" />
+                </div>
+
+                <div class="back">
+                  <div class="back-content middle">
+                    <h1>YOU'RE ALREADY ONE OF US</h1>
+                    <span><h2>And will always be</h2></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <div class="section-heading">
+          <h1>Gear Up</h1>
+          <h6>Get In The Arena</h6>
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Your Name.."
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email.."
+            required
+          />
+          <label for="service">Platforms:</label>
+          <select name="services" id="service">
+            <option value="">Sony</option>
+            <option value="">Nintendo</option>
+            <option value="">XBOX</option>
+          </select>
+          <label for="subject">Anything You Wanna Share</label>
+          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <!--playcards-->
+    <section class="playcards" id="playcards">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <div class="section-heading">
+          <h1>Our team</h1>
+          <h6>Know about us</h6>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="images/teambk.jpg" alt="card_image" class="card_img" />
+              <img
+                src="images/anji.jpg"
+                alt="profile_image"
+                class="profile_img"
+              />
+              <h1 class="names">Anjali Singh</h1>
+              <p class="job_title">
+                Web developer
+              </p>
+              <p class="aboutteam">
+                I'am a web developer and also a mobile app developer.
+              </p>
+              <a href="anjali.html" class="btn">Contact</a>
+              <ul class="social-media">
+                <li>
+                  <a href="https://www.facebook.com/anjiattri07"
+                    ><i class="fa fa-facebook-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/anjali-singh-947ab0179/"
+                    ><i class="fa fa-linkedin-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/anji.attri/"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <img src="images/teambk.jpg" alt="card_image" class="card_img" />
+              <img
+                src="images/hiten.jpg"
+                alt="profile_image"
+                class="profile_img"
+              />
+              <h1 class="names">Hitendra Dhakarey</h1>
+              <p class="job_title">
+                Web Designer
+              </p>
+              <p class="aboutteam">
+                I'am a web developer and also a mobile app developer.
+              </p>
+              <a href="hitendra.html" class="btn">Contact</a>
+              <ul class="social-media">
+                <li>
+                  <a href="https://www.facebook.com/hitendra.dhakarey"
+                    ><i class="fa fa-facebook-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/hitendra-dhakarey-aa7a27185/"
+                    ><i class="fa fa-linkedin-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hitenndr_d/"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <img src="images/teambk.jpg" alt="card_image" class="card_img" />
+              <img
+                src="images/jayant.jpg"
+                alt="profile_image"
+                class="profile_img"
+              />
+              <h1 class="names">Jayant Agarwal</h1>
+              <p class="job_title">
+                PPT GUY
+              </p>
+              <p class="aboutteam">
+                I make PPTs!
+              </p>
+              <a href="jayant.html" class="btn">Contact</a>
+              <ul class="social-media">
+                <li>
+                  <a href="https://www.facebook.com/jayant.agarwal.5477"
+                    ><i class="fa fa-facebook-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/jayant-agarwal-811855184/"
+                    ><i class="fa fa-linkedin-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/jayant___agarwal/"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--playcards end-->
+
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>&copy:2020 GLES</p>
+    </footer>
+
+    <!--Actual loader starts-->
+    <script>
+      let loader = document.querySelector(".loader");
+      window.addEventListener("load", function () {
+        loader.parentElement.removeChild(loader);
+      });
+    </script>
+    <!--Actual loader ends-->
+    <script>
+      let socialNav = document.querySelector(".social-nav");
+      let navToggler = document.querySelector(".nav-toggler");
+
+      navToggler.addEventListener("click", function () {
+        socialNav.classList.toggle("active");
+      });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="text/javascript" src="swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 10,
+          depth: 200,
+          modifier: 4,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+   
+    </script>
+    
+  </body>
+</html>
